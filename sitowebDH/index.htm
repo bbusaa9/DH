@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<meta charset="UTF-8"/>
+	<!--dublin core-->
+	<meta name="DC.Title" content="Aroldo Bonzagni">
+	<meta name="DC.Creator" content="Sara Buglione">
+	<meta name="DC.Subject" content="raccolta digitale">
+	<meta name="DC.Description" content="Una raccolta digitale che comprende il catalogo, la biografia, la bibliografia relativa al soggetto e le mostre a cui Aroldo Bonzagni ha preso parte">
+	<meta name="DC.Publisher" content="Università di Bologna">
+	<meta name="DC.Date" content="2023-05-10">
+	<meta name="DC.Type" content="Sito web">
+	<meta name="DC.Format" content="HTML/CSS/JS">
+	<meta name="DC.Identifier" href="LINK TUO PROGETTO GITHUB">
+	<meta name="DC.Source" content="Bootstrap">
+	<meta name="DC.Language" content="it">
+	<meta name="DC.Relation" content="">
+	<meta name="DC.Rights" content="">
+	<title>Aroldo Bonzagni</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link href='https://fonts.googleapis.com/css?family=Chonburi' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=EB Garamond' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css2?family=Gothic+A1' rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap" rel="stylesheet"> 
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
+	<link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+	<span id="top"></span>
+	<header>
+		<nav class="navbar bg-light fixed-top">
+		  <div class="container-fluid">
+		    <a class="navbar-brand spazio-sinistra" href="index.htm">AROLDO BONZAGNI</a>
+		    <button class="navbar-toggler spazio-destra" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+		      <div class="offcanvas-header">
+		        <h4 class="offcanvas-title" id="offcanvasNavbarLabel">Menù</h4>
+		        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+		      </div>
+		      <div class="offcanvas-body">
+		        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+		          <li class="nav-item">
+		            <a class="nav-link active" aria-current="page" href="index.htm">Home</a>
+		          </li>
+		          <li class="nav-item">
+		            <a class="nav-link" aria-current="page" href="index.htm">Introduzione</a>
+		          </li>
+				  <li class="nav-item">
+		            <a class="nav-link" aria-current="page" href="#">Biografia</a>
+		          </li>
+				  <li class="nav-item">
+		            <a class="nav-link" aria-current="page" href="">Bibliografia</a>
+		          </li>
+				  <li class="nav-item">
+		            <a class="nav-link" aria-current="page" href="#">Mostre</a>
+		          </li>
+		          <li class="nav-item dropdown">
+		            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		              Catalogo
+		            </a>
+		            <ul class="dropdown-menu">
+		              <li><a class="dropdown-item" href="catalogo.htm" title="Vai alla lista">Lista</a></li>
+		              <li>
+		                <hr class="dropdown-divider"/>
+		              </li>
+		              <li><a class="dropdown-item" href="#">Temi</a></li>
+		              <li><a class="dropdown-item" href="#">Stili</a></li>
+		              <li><a class="dropdown-item" href="#">Luoghi</a></li>
+		            </ul>
+		          </li>
+		        </ul>
+				<br>
+		        <form class="d-flex" role="search">
+		          <input class="form-control me-2" type="search" placeholder="Cerca" aria-label="Cerca">
+		          <button class="btn btn-outline-secondary" type="submit">Cerca</button>
+		        </form>
+		      </div>
+		    </div>
+		  </div>
+		</nav>
+		<!--classi personalizzate per creare i margini nel blocco di testo-->
+		
+		
+		<br>
+		<div class="container-fluid mt-5">
+			<div class="text-block">
+				<div class="content larghezza">
+					<div class="equidistante scritta-sfondohome">
+					  <p class="text-center"><b>Aroldo Bonzagni:</b><br/>
+					  una vita da pittore <br/>tra impegno culturale e bellezza.</p>
+				  </div> 
+			  </div>
+			</div>
+			<img src="img/home/sfondohome.jpg" class="img-fluid sfondohome" title="Immagine tratta da Google Immagini"/>
+			 
+	</header>
+	<!--descrizione progetto-->
+	<section class="container-fluid">
+		<div class="container">
+			<h2 class="text-justify">IL PROGETTO</h2>
+			<p class="text-justify">Il catalogo 
+				<em>Aroldo Bonzagni</em> 
+Il catalogo Aroldo Bonzagni è un progetto realizzato per l'esame di Digital Humanities e Patrimonio Culturale (AA. 2022/2023) dell'Università di Bologna.
+Il progetto vuole ricostruire la vita e l'attività del pittore centese (1887 - 1918) attraverso la realizzazione di un raccolta digitale che comprende il catalogo, la biografia, la bibliografia relativa al soggetto e le mostre a cui questi ha preso parte.			</p>
+		</div>	
+	</section>
+	<!--sezioni navigabili-->
+	<section class="container-fluid justify">
+		<div class="row mb-5">
+			<div class="col-md-8">
+				<img src="img/home/temi.jpg" class="img-fluid"/>
+			</div>
+			<div class="col-md-4 bg-light text-dark">
+				<h2 class="text-justify mt-2">TEMI</h2>
+				<p class="text-justify" >Il catalogo 
+					<em>Aroldo Bonzagni</em>
+				 è esplorabile attraverso una sezione <a href="#" class="link-dark" link="vai alla sezione Temi">Temi</a>, nella quale opere sono classificate secondo un'individuazione tematica sulla base del soggetto raffigurato: politica, pubblicità, ritratti, scene della società (alta borghesia/gente povera).
+				</p>
+				<a href="" title="vai alla sezione Temi"><button type="button" class="btn btn-outline-secondary">Esplora la sezione Temi</button></a>
+			</div>
+		</div>
+		<div class="row mb-5">
+			<div class="col-md-4 bg-light text-dark">
+				<h2 class="text-justify mt-2">STILI</h2>
+				<p class="text-justify">Le opere presenti nel catalogo di
+					<em>Aroldo Bonzagni</em>
+				 sono esplorabili anche attraverso una individuazione di <a href="#" class="link-dark" link="vai alla sezione Stili">stili</a> , dato il vasto repertorio dell’artista che non ha mai espresso la sua arte in maniera univoca. Si passa dal liberty, all’espressionismo per poi attraversare la sua breve adesione al futurismo.
+
+				</p>
+				<a href="" title="vai alla sezione Stili"><button type="button" class="btn btn-outline-secondary">Esplora la sezione Stili</button></a>
+			</div>
+			<div class="col-md-3">
+			</div>
+			<div class="col-md-5">
+				<img src="img/home/stili.jpg" class="img-fluid"/>
+			</div>
+		</div>
+
+		<div class="row mb-5">
+			<div class="col-md-8">
+				<img src="img/home/luoghi.jpg" class="img-fluid"/>
+			</div>
+			<div class="col-md-4 bg-light text-dark">
+				<h2 class="text-justify mt-2">LUOGHI</h2>
+				<p class="text-justify">
+					È inoltre possibile navigare il catalogo mediante una sezione <a href="" class="link-dark" link="vai alla sezione Luoghi">Luoghi</a> che permette di filtrare la raccolta in base ai luoghi in cui l’artista ha lavorato e vissuto e avere quindi a che fare con la sua produzione di quegli anni, in quel posto specifico.
+
+				</p>
+				<a href="" title="vai alla sezione Luoghi"><button type="button" class="btn btn-outline-secondary">Esplora la sezione Luoghi</button></a>
+			</div>
+		</div>
+	</section>
+	<!--VAI AL CATALOGO-->
+	
+	 <div align="center">
+		<a href="catalogo.htm" title="VAI AL CATALOGO">
+		<button type="button" class="btn btn-catalogo btn-outline-secondary btn-lg">VAI AL CATALOGO</button></a>
+	</div>
+	
+	<!--footer-->
+	<div class="container">
+	  	<footer class="py-3 my-4">
+		    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+		      <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+		      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Credits</a></li>
+		      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Licenze</a></li>
+		      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+		      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contatti</a></li>
+		    </ul>
+		    <p class="text-center text-muted">&copy; Copyright 2023 - Sara Buglione</p>
+		    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+		    	<a href="#top" title="Torna su"><button type="button" class="btn btn-outline-secondary btn-lg">Torna su</button></a>
+		    </div>
+		</footer>
+	</div>
+	<script src="bootstrap/js/bootstrap.bundle.min.css"></script>
+</body>
+</html>

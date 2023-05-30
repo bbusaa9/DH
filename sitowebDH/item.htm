@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<meta charset="UTF-8"/>
+	<!--dublin core-->
+	<meta name="DC.Title" content="Aroldo Bonzagni">
+	<meta name="DC.Creator" content="Sara Buglione">
+	<meta name="DC.Subject" content="raccolta digitale">
+	<meta name="DC.Description" content="Una raccolta digitale che comprende il catalogo, la biografia, la bibliografia relativa al soggetto e le mostre a cui Aroldo Bonzagni ha preso parte">
+	<meta name="DC.Publisher" content="Università di Bologna">
+	<meta name="DC.Date" content="2023-05-10">
+	<meta name="DC.Type" content="Sito web">
+	<meta name="DC.Format" content="HTML/CSS/JS">
+	<meta name="DC.Identifier" href="LINK TUO PROGETTO GITHUB">
+	<meta name="DC.Source" content="Bootstrap">
+	<meta name="DC.Language" content="it">
+	<meta name="DC.Relation" content="">
+	<meta name="DC.Rights" content="">
+	<title>Aroldo Bonzagni</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+	<link href='https://fonts.googleapis.com/css?family=Chonburi' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=EB Garamond' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css2?family=Gothic+A1' rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap" rel="stylesheet"> 
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
+	<link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+	<span id="top"></span>
+	<header>
+		<nav class="navbar bg-light fixed-top">
+		  <div class="container-fluid">
+		    <a class="navbar-brand spazio-sinistra" href="index.htm">AROLDO BONZAGNI</a>
+		    <button class="navbar-toggler spazio-destra" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+		      <div class="offcanvas-header">
+		        <h4 class="offcanvas-title" id="offcanvasNavbarLabel">Menù</h4>
+		        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+		      </div>
+		      <div class="offcanvas-body">
+		        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+		          <li class="nav-item">
+		            <a class="nav-link active" aria-current="page" href="index.htm">Home</a>
+		          </li>
+		          <li class="nav-item">
+		            <a class="nav-link" aria-current="page" href="#">Introduzione</a>
+		          </li>
+				  <li class="nav-item">
+		            <a class="nav-link" aria-current="page" href="#">Biografia</a>
+		          </li>
+				  <li class="nav-item">
+		            <a class="nav-link" aria-current="page" href="">Bibliografia</a>
+		          </li>
+				  <li class="nav-item">
+		            <a class="nav-link" aria-current="page" href="#">Mostre</a>
+		          </li>
+		          <li class="nav-item dropdown">
+		            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		              Catalogo
+		            </a>
+		            <ul class="dropdown-menu">
+		              <li><a class="dropdown-item" href="catalogo.htm" title="Vai alla lista">Lista</a></li>
+		              <li>
+		                <hr class="dropdown-divider"/>
+		              </li>
+		              <li><a class="dropdown-item" href="#">Temi</a></li>
+		              <li><a class="dropdown-item" href="#">Stili</a></li>
+		              <li><a class="dropdown-item" href="#">Luoghi</a></li>
+		            </ul>
+		          </li>
+		        </ul>
+				<br>
+		        <form class="d-flex" role="search">
+		          <input class="form-control me-2" type="search" placeholder="Cerca" aria-label="Cerca">
+		          <button class="btn btn-outline-secondary" type="submit">Cerca</button>
+		        </form>
+		      </div>
+		    </div>
+		  </div>
+		</nav>
+		<!--classi personalizzate per creare i margini nel blocco di testo-->
+	</header>
+
+	<div class="container-fluid pt-5" id="font-item">	
+		<div class="row pt-5">
+			<br>
+			<br>
+			<p class= "row" align="center">
+				<b>Introduzione: Impermeabili Old England. </b>
+				Una coppia elegantemente vestita con impermeabili passeggia con il cane attraverso una piazza cittadina; alle loro spalle giunge un automobile con altre persone abbigliate con impermeabili.
+			</p>
+			<div class="col-md-2 col-sm-2 pt-5 bg-light">
+				
+			</div>
+
+			<div class="col-md-8 col-sm-8">
+				<div class="row">
+					<div class="col-md-6 col-sm-6 mt-1 pt-1">
+						<img src="img/catalogo/01.jpg" class="img-fluid mt-3" alt="Impermeabili Old School"/>
+						<div class="col mt-4">
+							<a href="metadati.xml" target="_blank" title="vai al file XML/DC"><button type="button" class="btn btn-light">FILE XML/DC</button></a>
+						</div>
+						<div class="col mt-4">
+							<a href="SCHEDA.pdf" target="_blank" title="scarica la scheda completa di catalogazione"><button type="button" class="btn btn-light">VAI ALLA SCHEDA COMPLETA</button></a>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6 mt-1 pt-1">
+						<p>
+							<b>Titolo:</b>
+							Impermeabili Old England
+						</p>
+						<hr/>
+						<p>
+							<b>Oggetto:</b>
+							Manifesto pubblicitario 
+							<a href="https://www.getty.edu/vow/AATFullDisplay?find=manifesto&logic=AND&note=&english=N&prev_page=1&subjectid=300026393" class="link-dark" title="pagina AAT Manifesto del Getty" target="_blank"><sup>AAT(1)</sup></a> 
+							<a href="https://www.getty.edu/vow/AATFullDisplay?find=pubblicit%C3%A0&logic=AND&note=&english=N&prev_page=1&subjectid=300137619" class="link-dark" title="pagina AAT Pubblicità del Getty" target="_blank"><sup>AAT(2)</sup></a>
+							
+							
+						</p>
+						<hr/>
+						<p>
+							<b>Materia e tecnica:</b>
+							carta/ cromolitografia
+							<a href="http://wordnetweb.princeton.edu/perl/webwn?s=carta&sub=Cerca+Wordnet&o2=&o0=1&o8=1&o1=1&o7=&o5=&o9=&o6=&o3=&o4=&h=101123122312312312231231230222222" class="link-dark" title="vedi su WordNet" target="_blank"><sup>WordNet</sup></a>
+						</p>
+						<hr/>
+						<p>
+							<b>Attribuzioni:</b>
+								Bonzagni, Aroldo
+								<a href="https://viaf.org/viaf/56883832/#Bonzagni,_Aroldo,_1887-1918" class="link-dark" title="Identificativo VIAF di Bonzagni, Aroldo" target="_blank"><sup>VIAF</sup></a>
+						</p>
+						<hr/>
+						<p>
+							<b>Data di creazione:</b>
+							1910ca.
+						</p>
+						<hr/>
+						<p>
+							<b>Luogo di conservazione:</b>
+								 Museo nazionale Collezione Salce
+								<a href="https://it.wikipedia.org/wiki/Museo_nazionale_Collezione_Salce" class="link-dark" title="Pagina Wikipedia del Museo Nazionale Collezione Salce" target="_blank"><sup>Wikipedia</sup></a>
+						</p>
+						<hr/>
+						<p>
+							<b>Localizzazione:</b>
+							Complesso di Santa Margherita e San Gaetano, Treviso
+							<a href="https://www.geonames.org/6697901/gam-galleria-d-arte-moderna.html" title="Identificativo GeoNames del Complesso di Santa Margherita e San Gaetano, Treviso" target="_blank"><sup>GeoNames</sup></a>
+						</p>
+						<hr/>
+						<p>
+							<b>Tipologia Scheda:</b>
+							Stampe
+						</p>
+						<hr/>
+						<p>
+							<b>Condizione giuridica:</b>
+							Proprietà Stato
+						</p>
+						<hr/>
+						<p>
+							<b>Codice di Catalogo Nazionale:</b>
+							050066936
+						</p>
+						<hr/>
+						<p>
+							<b>Soggetto schedatore:</b>
+							Sara Buglione
+						</p>
+						<hr/>
+						<p>
+							<b>Data di compilazione:</b>
+							2023
+						</p>
+						<hr/>
+						<p>
+							<b>LICENZA METADATI:</b>
+							CC-BY 4.0 <a href="https://creativecommons.org/licenses/by/4.0/it/legalcode" title="CreativeCommons" target="_blank"></a>
+						</p>
+						<hr/>
+
+						<div class="row mt-4">
+							<a href="catalogo.htm">
+								<button type="button" class="btn btn-light">
+									<img src="img/icons/arrow-return-left.svg"/>
+									TORNA ALLA LISTA
+								</button>
+							</a>
+						</div>
+						<div class="row">
+							<div class="col mt-4">
+								<a href="loginpage.htm" title="per aggiungere ai preferiti, iscritivi"><button type="button" class="btn btn-light">
+									<img src="img/icons/box2-heart.svg"/><br/>
+		                                PREFERITI
+		                        </button></a>
+							</div>
+							<div class="col mt-4">
+								<button type="button" class="btn btn-light">
+									<img src="img/icons/share.svg"/><br/>
+		                                CONDIVIDI
+		                        </button>
+							</div>
+							<div class="col mt-4">
+								<button type="button" class="btn btn-light">
+									<img src="img/icons/cloud-arrow-down.svg"/><br/>
+		                                DOWNLOAD
+		                        </button>
+							</div> 
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2 col-sm-2 pt-5 bg-light">
+			</div>
+		</div>
+		<div class="row container">
+			<h4 class="pb-2" align="center">Potrebbe interessarti anche:</h4>
+			<p align="center">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/P7045Ziz_7E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</p>
+
+			<h4 class="pb-2" align="center">...Oppure:</h4>
+			<p align="center">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/C_janj7C7lE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</p>
+
+		</div>
+	</div>
+
+
+
+
+							<!--footer-->
+	<div class="container">
+		<footer class="py-3 my-4">
+		  <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+			<li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+			<li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Credits</a></li>
+			<li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Licenze</a></li>
+			<li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+			<li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contatti</a></li>
+		  </ul>
+		  <p class="text-center text-muted">&copy; Copyright 2023 - Sara Buglione</p>
+		  <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+			  <a href="#top" title="Torna su"><button type="button" class="btn btn-outline-secondary btn-lg">Torna su</button></a>
+		  </div>
+	  </footer>
+  </div>
+  <script src="bootstrap/js/bootstrap.bundle.min.css"></script>
+</body>
+</html>
